@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 400px;
+  background-color:violet;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  border:border-box;
+}
+
+input {
+  align-items: center;
+  padding: 8px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 8px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 8px; 
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin-top: 8px;
+}
+
+li button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #d32f2f;
+}
